@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.driver.PinterestTestCase">
+        <methods>
+          <include name="beforeTestMethod"/>
+          <include name="driverMethod"/>
+          <include name="launchDriver"/>
+        </methods>
+      </class> <!-- com.driver.PinterestTestCase -->
+      <class name="com.driver.SeleniumTestCase">
+        <methods>
+          <include name="beforeTestMethod"/>
+          <include name="driverMethod"/>
+        </methods>
+      </class> <!-- com.driver.SeleniumTestCase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
